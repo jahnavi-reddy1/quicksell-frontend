@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Quicksell Frontend Assignment
 
-In the project directory, you can run:
+**Production Link:** [Quicksell App on Vercel](https://quicksell-pl2f8lvl4-jahnavi-reddys-projects.vercel.app)  
 
-### `npm start`
+## Overview  
+This project is an **interactive Kanban board application** built with **React JS**. It interacts with the provided API and allows dynamic grouping and sorting of tickets. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features  
+- **Three Grouping Options**  
+  1. **By Status**: Organize tickets based on their current status.  
+  2. **By User**: Arrange tickets according to the assigned user.  
+  3. **By Priority**: Group tickets by priority level.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Sorting Options:**  
+  1. **Priority**: Descending order of priority.  
+  2. **Title**: Alphabetical order by title.
 
-### `npm test`
+- **State Persistence:** User's view state is saved and restored after page reload.  
+- **Responsive Design:** Fully responsive and visually aligned with provided design requirements.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots  
+**Default State:**  
+![Default Display] ![image](https://github.com/user-attachments/assets/d5c9f049-2dea-4433-9435-e84f54735954)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Grouped by User:**  
+![Grouped by User] ![image](https://github.com/user-attachments/assets/029b3c42-a9e8-43c0-abe9-3657fb3ead0c)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Grouped by Priority:**  
+![Grouped by Priority] ![image](https://github.com/user-attachments/assets/d64faff8-68cf-40c5-af56-3d5f919b4f1e)
 
-### `npm run eject`
+**Ticket Card Design:**  
+![Card Design] ![image](https://github.com/user-attachments/assets/47094edb-13a5-44a3-ac82-0831611860b6)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Ticket Priority Levels:  
+- **4:** Urgent  
+- **3:** High  
+- **2:** Medium  
+- **1:** Low  
+- **0:** No Priority  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Design & Development Guidelines  
+- **Frameworks:**  
+  -  **React JS** 
+  - **CSS** 
+  - **Styled JSX** 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to Run Locally  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/jahnavi-reddy1/quicksell-frontend.git
+   cd quicksell-frontend
+   ```
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+3. Run the application:  
+   ```bash
+   npm start
+   ```
